@@ -1,0 +1,24 @@
+{% for p in person %}
+<table style="border:3px #cccccc solid; width: 100%;" cellpadding="10" border='1'>
+	<tr>
+		<td>姓名</td>
+		<td>{{ p.name }}</td>
+	</tr>
+	<tr>
+		<td>性別</td>
+		<td>{{ p.gender }}</td>
+	</tr>
+	<tr>
+		<td>住址</td>
+		<td>{{ p.address }}</td>
+	</tr>
+	<tr>
+		<td>興趣</td>
+		<td>{{ p.interest }}</td>
+	</tr>
+	<tr>
+		<td>自傳</td>
+		<td>{{ p.autobiography }}</td>
+	</tr>
+</table>
+{% endfor %}
